@@ -1,0 +1,52 @@
+ul {
+    list-style-type: none;
+    padding: 0px;
+    color: black; }
+  
+li {
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    margin: 2%; }
+  
+li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px;
+    margin: 10px;
+    color: black; }
+  
+ul li ul {
+    position: absolute;
+    display: none; }
+  
+ul li ul li {
+    width: 150px;
+    height: 30px;
+    display: block; }
+  
+ul li:hover ul {
+    display: block;
+    background-color:white; 
+    color: black;
+}
+.confNav {
+    width: 900px;
+  display: flex;
+  align-content: center;
+  height: 5%;
+  margin: 1px;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  transition: width 2s;
+    position: sticky;
+    list-style-type: none;
+    color: black; }
+.confHeader{
+    display: flex;
+    justify-content: space-around;
+}
+.logito{
+    height: 50%;
+}
